@@ -1,4 +1,4 @@
-import Carousel_Main from "./components/Carousel";
+import Circle_Main from "./components/Circle.js";
 import Main_Layout from "./components/Main_Layout";
 
 
@@ -6,7 +6,7 @@ function Home() {
   return (
     <div>
       <Main_Layout>
-        <Carousel_Main/>
+        <Circle_Main/>
       </Main_Layout>
     </div>
   );
