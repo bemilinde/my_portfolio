@@ -3,7 +3,7 @@ import '../styles/HelloText.css'
 
 function HelloText(){
 
-  const txt = "텍스트 스트 134578 텍스트 텍스트 텍스트" 
+  const txt = "Hell World Junior Dev OngSim"; 
   const [text, setText] = useState("");
   const [count, setCount] = useState(0);
 

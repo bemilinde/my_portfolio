@@ -7,8 +7,9 @@
   -moz-user-select: none;
   -ms-use-select: none;
   user-select: none;
-  
+
 }
+
 .circle_wrap{
   width: 100vw;
   height: 100vh;
@@ -35,8 +36,8 @@
   flex-direction: column;
   justify-content: center; 
   align-items: center;
+  font-size: 30px;
 
-  
 }
 
 
@@ -65,27 +66,37 @@
   width: 250px;
   height: 250px;
   background-color: tomato;
+  border: solid 1px;
   margin-left: -75%;
   margin-top: -75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.circle-btn{
+  position: absolute;
+  top: 175px;
 }
 
 .circle-item:nth-child(1){
-  transform: translate(0, -250%)
+  transform: translate(0, -250%);
 }
 .circle-item:nth-child(2){
-  transform: translate(175%, -175%) rotate(45deg)
+  transform: translate(175%, -175%) rotate(45deg);
 }
 .circle-item:nth-child(3){
-  transform: translate(250%, 0) rotate(90deg)
+  transform: translate(250%, 0) rotate(90deg);
 }
 .circle-item:nth-child(4){
-  transform: translate(175%, 175%) rotate(135deg)
+  transform: translate(175%, 175%) rotate(135deg);
 }
 .circle-item:nth-child(5){
-  transform: translate(0, 250%) rotate(180deg)
+  transform: translate(0, 250%) rotate(180deg);
 }
 .circle-item:nth-child(6){
-  transform: translate(-175%, 175%) rotate(-135deg)
+  transform: translate(-175%, 175%) rotate(-135deg);
 }
 .circle-item:nth-child(7){
   transform: translate(-250%, 0) rotate(-90deg)
