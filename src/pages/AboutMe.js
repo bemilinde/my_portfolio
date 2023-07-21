@@ -33,7 +33,7 @@ const AboutMe = () => {
       $sky.innerHTML = htmlDummy;
     };
 
-    // 브라우저 창 크기 변경 시 별 생성 함수 호출
+    // 브라우저 창 크기 변경 시 별 생성 함수 호출 
     const handleResize = () => {
       makeStars();
     };
