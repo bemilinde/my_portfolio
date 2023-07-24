@@ -12,7 +12,7 @@ import Career from './pages/Career.js';
 import License from './pages/License.js';
 import CoverLetter from './pages/CoverLetter.js'
 
-//Test
+//Test1
 
 function Home() {
   return (
@@ -31,6 +31,7 @@ function Home() {
         <Route path="/Career" element={<Career/>}/>
         <Route path="/License" element={<License/>}/>
         <Route path="/CoverLetter" element={<CoverLetter/>}/>
+        
       </Routes>
 
     </>
